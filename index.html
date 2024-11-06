@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>Ray Marching - Torus twist</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div>
+            <h1>Ray Marching - Torus twist</h1>
+        </div>
+        <p style="text-align: center; font-size: 2rem; font-family: 'Poppins', sans-serif;">
+            <span id="fps">60</span> <span style="font-weight: bold;">FPS</span>
+        </p>
+        <div style="width: 100%">
+            <canvas
+                id="canvas"
+                width="900"
+                height="450"
+                style="width: 80%; margin: 0 auto;"
+            ></canvas>
+        </div>
+
+        <script src="script.js" type="module"></script>
+        <script id="vert" src="shader.vert" type="x-shader/x-vertex"></script>
+        <script id="frag" src="shader.frag" type="x-shader/x-fragment"></script>
+    </body>
+</html>
+        
